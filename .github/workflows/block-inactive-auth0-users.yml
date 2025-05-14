@@ -136,7 +136,7 @@ jobs:
           echo "});" >> block_inactive_users.js
 
       - name: Install dependencies
-        run: npm install axios dayjs zlib
+        run: npm install axios dayjs
 
       - name: Run block_inactive_users.js
         env:
