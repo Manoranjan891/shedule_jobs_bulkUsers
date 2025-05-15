@@ -2,7 +2,7 @@ name: Block Inactive Auth0 Users
 
 on:
   schedule:
-    - cron: '8 19 * * *' # Runs daily at midnight UTC
+    - cron: '38 13 * * *' # Runs daily at midnight UTC
   workflow_dispatch:
 
 jobs:
